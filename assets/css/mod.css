@@ -1,0 +1,40 @@
+html,
+body {
+  font-family: 'Open Sans', serif;
+}
+
+.hero.is-primary {
+background-color: #4BC9C6;
+background: linear-gradient(#4BC9C6 60%, rgb(49, 134, 133));
+
+}
+
+#mainImg {
+  max-height: 380px;
+}
+
+#image {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+
+#image-caption{
+  clear:both;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+#foot {
+  background-image: url("../images/footer-bg.jpg"); 
+  background-color: #000000; 
+  opacity: 1;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
